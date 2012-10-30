@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<title>Othello</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="model.js"></script>
+	<script type="text/javascript" src="view.js"></script>
+</head>
+
+<body>
+	<div><h1>Othello</h1></div>
+	<div id="container">
+		<div id="content">
+			<canvas id="gameboard" height="400" width="400"></canvas>
+		</div>
+		<div id="scoreboard">
+			<div id="playersTurn" class="score"></div><br />
+			<div id="p1score" class="score"></div>
+			<div id="p2score" class="score"></div><br />
+			<div id="buttons">
+				<input id="btnNewGame" type="button" name="new" value="New Game"/><br />
+				<input id="btnUndoMove" type="button" name="undo" value="Undo Move"/><br />
+				<input id="btnRedoMove" type="button" name="redo" value="Redo Move"/><br />
+				<input id="btnPass" type="button" name="pass" value="Pass"/>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>

@@ -1,0 +1,67 @@
+body {
+	background:#DCDCDC;
+    color:#000000;
+    font:normal normal 100% 'Lucida Grande','Trebuchet MS';
+    text-shadow:#4F73B6 1px 0px 1px;
+}
+h1,h2 {
+	text-align:center;
+    text-shadow:#4F73B6 2px 2px 2px;
+}
+#content {
+	text-align:center;
+    padding-right:25px;
+    padding-left:100px;
+}
+#buttons {
+    position:absolute;
+    width:100%;
+}
+div {
+	display:inline;
+	overflow:auto;
+}
+.score {
+	display:block;
+	width:250px;
+    text-align:left;
+}
+#scoreboard {
+	width:250px;
+    height:400px;
+	position:absolute;
+    padding-top:50px;
+}
+#backgroundPopup {  
+    display:none;  
+    position:fixed;  
+    height:100%;  
+    width:100%;  
+    top:0;  
+    left:0;  
+    background:#000000;
+    opacity:0.7; 
+    border:1px solid #cecece;  
+    z-index:1;  
+}  
+#newGamePopupContainer {  
+    display:none;  
+    background:#DCDCDC;  
+    border:2px solid #cecece;  
+    z-index:2;  
+    padding:12px;  
+    font-size:13px; 
+    text-align:center; 
+}
+#p1Setup,#p2Setup {
+    display:block;
+    text-align:left;
+}
+#pSetupContainer {
+    width:100%;
+    display:block;
+}
+.label {
+    display:inline;
+    padding-right:10px;
+}
